@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		13160F7A2822BFD000634997 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13160F792822BFD000634997 /* main.cpp */; };
+		13160F822822C01D00634997 /* CString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13160F802822C01C00634997 /* CString.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		13160F762822BFD000634997 /* inputStreamObject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = inputStreamObject; sourceTree = BUILT_PRODUCTS_DIR; };
 		13160F792822BFD000634997 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		13160F802822C01C00634997 /* CString.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CString.cpp; sourceTree = "<group>"; };
+		13160F812822C01C00634997 /* CString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CString.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +60,8 @@
 		13160F782822BFD000634997 /* inputStreamObject */ = {
 			isa = PBXGroup;
 			children = (
+				13160F802822C01C00634997 /* CString.cpp */,
+				13160F812822C01C00634997 /* CString.h */,
 				13160F792822BFD000634997 /* main.cpp */,
 			);
 			path = inputStreamObject;
@@ -119,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13160F822822C01D00634997 /* CString.cpp in Sources */,
 				13160F7A2822BFD000634997 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
